@@ -1,13 +1,14 @@
 var solution = Math.floor(Math.random() * 4);
 console.log(solution);
 
-var response = prompt("What's your name?", "Elisabeth")
-console.log(prompt);
+var response = prompt("Choisir un nombre entre 1 et 3.");
+console.log(response);
 
-if (reponse = solution) {
-return "Code accepted!"                                                                                           
-}elsif (reponse < solution)  {
-return "Trop petit!"
+if (response === solution) {
+console.log("Code accepted!");                                                                                           
+}else if (response < solution)  {
+console.log("Trop petit!");
 }else {
-return "Trop grand!"
+console.log("Trop grand!");
 }
+
